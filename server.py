@@ -9,7 +9,7 @@ from http import HTTPStatus
 
 
 FILEPATH = sys.argv[1] if sys.argv[1:] else __file__
-PORT = 80
+PORT = 1664
 
 
 class SimpleHTTPRequestHandler(baseServer.SimpleHTTPRequestHandler):
