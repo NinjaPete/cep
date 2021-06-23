@@ -1,9 +1,9 @@
-sudo mkdir cep
+mkdir cep
 wget https://raw.githubusercontent.com/NinjaPete/cep/main/server.py
 cd cep
-sudo mkdir container
-sudo mkdir files
-sudo mkdir macro
+mkdir container
+mkdir files
+mkdir macro
 wget https://github.com/NinjaPete/cep/blob/17a8ccd0d1a18d25828586b783fccac5e0d3baa0/UAC.msi
 wget https://github.com/NinjaPete/cep/blob/17a8ccd0d1a18d25828586b783fccac5e0d3baa0/PotentiallyUnwanted.exe
 cd container
